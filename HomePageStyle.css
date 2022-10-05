@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karma&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+body{background: #faf9f2;background-image: url(Fundo.png); background-repeat: no-repeat; background-position: bottom;background-size: 2000px;}
+
+.container {
+       box-sizing: border-box;
+       width: 1480px;
+       height: 895px;
+       border: 5px solid #687132;
+       border-radius: 30px;
+       margin: auto;
+       margin-top: 40px;
+       margin-bottom: 40px;
+       }
+
+.cabecalho{display: flex; flex-direction: row; align-items: center; justify-content: flex-end; background-color: #000000; }
+.cabecalho_img_logo{height: 35px; width: 35; bottom: 0; right: 0; left: 0; top: 0; position: absolute; margin: auto; margin-top: 7px; margin-bottom: 7px;}
+.cabecalho_nav{font-family: 'Bebas Neue', cursive; font-size: 25px; color: #ffffff; margin-right: 240px; margin-top: 10px; margin-bottom: 10px;}
+.cabecalho_texto{margin-left: 80px; cursor: pointer;}
+
+.principal{display: flex; flex-direction: column; align-items: flex-start; margin-left: 200px; margin-top: 40px;}
+.section_img{height: 189px; margin-bottom: 12px;}
+.titulo{font-family: 'Bebas Neue', cursive; font-size: 39px;}
+.descricao{font-family: 'Karma', serif; font-size: 20px;}
+.botao{background-color: #71b6dd; height: 55px; width: 370px; border-radius: 20px; border: none; box-shadow: 6px 6px 6px rgba(0, 0, 0, .25);
+       font-family: 'Bebas Neue', cursive; font-size: 30px; margin-top: 33px; margin-bottom: 33px;
+       cursor: pointer;}
+    
+.imagem_principal{height: 915px; bottom: 0; right: 0; left: 0; top: 0; position: absolute; margin-top: 70px; margin-left: 1000px;}
+
+.imagem_rodape{height: 238px; width: 142px; bottom: 0; right: 0; left: 0; top: 0; position: absolute; margin: auto; margin-top: 720px; margin-left: 725px;}
+.imagem_sociais{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.GitHub{height: 30px; cursor: pointer;}
+.linkedin{height: 25px; margin-top: 15px; cursor: pointer;}
+.behance{height: 20px; margin-top: 15px; margin-bottom: 15px; cursor: pointer;}
+.texto_rodape{display: flex; flex-direction: column; align-items: center; justify-content: center;
+              font-family: 'Karma', serif; font-size: 14px;}
+
